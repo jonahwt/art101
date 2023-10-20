@@ -15,7 +15,6 @@ h2{
 #content{
   background-color: blue;
   border: dotted;
-
 }
 
 span{
@@ -25,12 +24,9 @@ span{
 p{
   font-family: 'Times New Roman', Times, serif;
   color:aliceblue
-
 }
 
 h1#title1{
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-
-
 }
