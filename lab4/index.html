@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4: Pseudocoding and Problem-solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,26 +23,108 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4: Pseudocoding and Problem-solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Create pseudocode for an everyday tast, and for a simple game.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>No problems arose.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>This was a fun lab. It made me put some thought about how complicated our everyday life is.
+						It also made me realise that even the simplist games are somewhat complicated.
+						I might even try to make one of the simple games because of this lab.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<p class="titleforlist">The everyday task in a list.</p>
+							<ul class="psuedocodelist">
+								<li>Google the necessary ingredients.</li>
+								<ul>
+								<li>Avocados, tortilla chips, tomatoes, onions, hot sauce, and cilantro.</li>
+								</ul>
+								<li>Find the necessary tools.</li>
+								<ul>
+								<li>Knife, 2 bowls, and a cutting board.</li>
+								</ul>
+								<li>Learn how to prepare each ingredient.</li>
+								<ul>
+								  <li>Avocado: Cut the skin, take out the pit, mush it until its a paste (or with some chunks).</li>
+								  <li>Tomatoes and onions: Dice them up.</li>
+								  <li>Put in a couple of doses of hot sauce and cilantro.</li>
+								  <li>Mix up everything.</li>
+								  <li>Have the tortilla chips in a separate bowl.</li>
+								</ul>
+								<li>Enjoy!</li>
+							  </ul>
+
+						<p class="titleforlist">Snake game in psuedocode.</p>  
+						<ul class="psuedocodelist">
+							<li>Create a grid and walls</li>
+							<ul>
+							  <li>Place the snake and the apple on the grid</li>
+							  <li>Set the initial snake direction</li>
+							  <li>Main game loop</li>
+								<ul>
+								  <li>Print the grid and walls</li>
+								  <li>Draw the snake, differentiating between the head and tail</li>
+								  <li>Accept user input and validate it</li>
+								  <li>Have snake move in user direction</li>
+								</ul>
+							  <li>Test if the snake ate the apple</li>
+								<ul>
+								  <li>If so, delete the apple, place a new apple on the grid, and add a pixel to the end of the snake</li>
+								  <li>Otherwise, keep the apple in the same spot and do not increase the snake length</li>
+								</ul>
+							  <li>Test for lose condition</li>
+								<ul>
+								  <li>If the snake head hits its own body or a wall, the game is lost</li>
+								</ul>
+							  <li>Test for win condition</li>
+								<ul>
+								  <li>If the entire grid is filled, the game is won</li>
+								</ul>
+							  <li>If the game is not over, continue the loop</li>
+							</ul>
+						  </ul>
+
+						<p class="titleforlist">Snake game in javascript psuedocode.</p>
+						<ul class="psuedocodelist">
+							<li>// Create a grid and walls</li>
+							<li>// Place the snake and the apple on the grid</li>
+							<li>// Set the initial snake direction</li>
+							<li>// Main game loop</li>
+							<ul>
+							  <li>// Print the grid and walls</li>
+							  <li>// Draw the snake, differentiating between the head and tail</li>
+							  <li>// Accept user input and validate it</li>
+							  <li> //Have snake move in user direction</li>
+							</ul>
+							  <li>// Test if the snake ate the apple</li>
+							  <ul>
+								<li> // If so, delete the apple, place a new apple on the grid, and add a pixel to the end of the snake</li>
+								<li> // Otherwise, keep the apple in the same spot and do not increase the snake length</li>
+								</ul>
+								<li>// Test for lose condition</li>
+								<ul>
+								<li> // If the snake head hits its own body or a wall, the game is lost</li>
+								</ul>
+								<li>// Test for win condition</li>
+								<ul>
+								<li> // If the entire grid is filled, the game is won</li>
+								</ul>
+							  <li>// If the game is not over, continue the loop</li>
+						  </ul>
+					</div>
 			</div>
+
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
