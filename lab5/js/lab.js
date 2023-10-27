@@ -1,6 +1,6 @@
 // index.js - For Lab 5, description of a car
 // Author: Jonah Teitz
-// Date: October 24
+// Date: October 25
 
 //Define Variables
 var make = "Ford";
