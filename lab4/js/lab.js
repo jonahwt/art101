@@ -1,6 +1,9 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Simple Game: Snake
+// Author: Jonah Teitz
+// Date: October 21, 2023
+
+
+//With some addition from Bard
 
 
 // Create a grid and walls
