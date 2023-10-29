@@ -19,6 +19,9 @@ document.writeln("Color: " + color +"<br>");
 document.writeln("year: " + year +"<br>");
 document.writeln("Age: " + age + "<br>");
 
+
+
+
 // Constants
 
 // Functions
