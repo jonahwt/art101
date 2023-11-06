@@ -35,8 +35,8 @@ z.map(function(x) {
 
 //Task X
 var outputEl = document.getElementById("output"); 
-outputEl.innerHTML = "The original array: " + z + '\n' +
-"The array multiplied by 10: " + z.map(multiplyByTen) + '\n' +
+outputEl.innerHTML = "The original array: " + z + '<br>' +
+"The array multiplied by 10: " + z.map(multiplyByTen) + '<br>' +
 "The array divided by 2: " + z.map(function(x) {
   var results = x / 2
   return results;
