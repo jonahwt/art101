@@ -8,8 +8,8 @@ console.log("The array is " + z)
 
 //Functions
 function multiplyByTen(y) {
-  var resultsOne = y * 10
-  return resultsOne;
+  var results = y * 10
+  return results;
 }
 
 //Test function
@@ -24,17 +24,22 @@ z.map(multiplyByTen)
 
 //Use anonymous function with .map
 console.log("The array divided by 2: " + z.map(function(x) {
-  var resultsTwo = x / 2
-  return resultsTwo;
+  var results = x / 2
+  return results;
 }))
 //anonymous function, no console.log
 z.map(function(x) {
-  var resultsTwo = x / 2
-  return resultsTwo;
+  var results = x / 2
+  return results;
 })
 
 //Task X
 var outputEl = document.getElementById("output"); 
-outputEl.innerHTML = results;
+outputEl.innerHTML = "The original array: " + z + '\n' +
+"The array multiplied by 10: " + z.map(multiplyByTen) + '\n' +
+"The array divided by 2: " + z.map(function(x) {
+  var results = x / 2
+  return results;
+})
 
 
