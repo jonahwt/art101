@@ -3,7 +3,7 @@
 // Date: 11/5/2023
 
 //Arrays
-var z = [1,5,9,22,66,97,345,0001]
+var z = [1,5,9,22,66,97,345,1]
 console.log("The array is " + z)
 
 //Functions
