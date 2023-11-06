@@ -25,4 +25,8 @@ console.log("The array divided by 2: " + z.map(function(x) {
   return results;
 }))
 
+//Task X
+var outputEl = document.getElementById("output"); 
+outputEl.innerHTML = results;
+
 
